@@ -1,6 +1,6 @@
 {
   "name": "me-ui",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "基于vue的UI组件库",
   "author": "phoeshow",
   "private": true,
@@ -17,6 +17,7 @@
   "dependencies": {
     "vue": "^2.3.3"
   },
+  "main": "dist/meui.min.js",
   "devDependencies": {
     "autoprefixer": "^7.1.2",
     "babel-core": "^6.22.1",

@@ -14,3 +14,14 @@ selenium-debug.log
 *.ntvs*
 *.njsproj
 *.sln
+
+index.html
+.postcssrc.js
+.eslintrc.js
+.eslintignore
+.editorconfig
+.babelrc
+static
+test
+config
+build
