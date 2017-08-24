@@ -1,9 +1,8 @@
 {
   "name": "me-ui",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "基于vue的UI组件库",
   "author": "phoeshow",
-  "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
     "dev:examples": "node build/examples-dev-server.js",
