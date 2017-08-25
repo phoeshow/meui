@@ -13,7 +13,8 @@ module.exports = {
     extensions: ['.js', '.vue', '.json'],
     alias: {
       'vue$': 'vue/dist/vue.esm.js',
-      '@': resolve('src')
+      '@': resolve('src'),
+      '~': resolve('src/style') // 将 ~ 符号映射到样式文件夹，方便开发
     }
   },
   module: {

@@ -2,24 +2,25 @@
 
 > 基于vue的UI组件库
 
-## Build Setup
+## 编译方法
 
 ``` bash
-# install dependencies
+# 安装依赖
 npm install
 
-# serve with hot reload at localhost:8080
-npm run dev
+# 打开一个可以热更新的查看服务器，检查所写组件的功能
+npm run dev:examples
 
-# build for production with minification
+# 将代码打包为单独的js与样式文件
 npm run build
 
-# build for production and view the bundle analyzer report
+# 打包编译并输出打包结果
 npm run build --report
 
 # run unit tests
 npm run unit
 
+# 目前并没有写测试
 # run e2e tests
 npm run e2e
 

@@ -1,6 +1,6 @@
-<!-- TODO 容器-->
+<!-- TODO: 布局容器-->
 <template>
-  <div class="container">
+  <div class="me-container">
     <slot></slot>
   </div>
 </template>
@@ -8,9 +8,8 @@
 <script>
 export default {
   name: 'me-container'
+
 }
 </script>
-<style lang="scss">
-
-</style>
+<style lang="scss" src="~/components/gird.scss"></style>
 
